@@ -23,7 +23,7 @@ Clona este repositorio:
 
 bash
 Copiar código
-git clone https://github.com/tu-usuario/EI3M5-bootcamp.git
+git clone https://github.com/Rivendell2003/CustomButtonsLib
 Abre el proyecto en Android Studio.
 
 Ejecuta la aplicación en un emulador o dispositivo físico.
