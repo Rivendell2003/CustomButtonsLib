@@ -1,5 +1,6 @@
 package com.example.ei3m5bootcamp
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.TextView
 import android.widget.Toast
@@ -8,6 +9,7 @@ import com.google.android.material.button.MaterialButton
 
 class MainActivity : AppCompatActivity() {
 
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -21,7 +23,6 @@ class MainActivity : AppCompatActivity() {
         // init el TextView "by Jonny A. V."
         val textViewByJonny: TextView = findViewById(R.id.textViewByJonny)
         textViewByJonny.text = "by Jonny A. V."
-        textViewByJonny.setTextColor(resources.getColor(android.R.color.white)) // fomndo Color blanco
         textViewByJonny.textSize = 8f // el tamaño del texto
 
         // creo los objetos Person (Amanda y Atiqah)
@@ -53,7 +54,7 @@ class MainActivity : AppCompatActivity() {
         // esto es para mostrar el resultado de la subasta
         buttonAuction.setOnClickListener {
             // creo una oferta para el artículo
-            val winningBid = Bid(5000, "Private Collector")
+            val winningBid = Bid(5000)
             // muestro el precio de subasta en el TextView
             textViewResult.text = """
                 Item A is sold at ${auctionPrice(winningBid, 2000)}.
@@ -99,5 +100,5 @@ class Person(val name: String, val age: Int, val hobby: String?, val referrer: P
 }
 
 // aca pongo un Bid para representar una oferta en la subasta
-class Bid(val amount: Int, val bidder: String)
+class Bid(val amount: Int)
 
