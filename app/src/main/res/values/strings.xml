@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EI3M5</string>
+
+    <string name="activity_main_text_0">Calcular</string>
+    <string name="activity_main_text_1">Resultado aparecerá aquí</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado_aparecer_aqu">Resultado aparecerá aquí</string>
+    <string name="apretame">Aprétame</string>
+    <string name="auction_result">Auction Result</string>
+    <string name="by_jonny_a_v">by Jonny V. A.</string>
+
+</resources>
