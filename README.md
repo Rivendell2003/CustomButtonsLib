@@ -1,37 +1,30 @@
-Proyecto EI3M5 - Bootcamp
-Este proyecto es una aplicación Android que implementa varios botones personalizados utilizando MaterialButton de Material Design. La aplicación realiza diferentes funciones, como mostrar perfiles de personas, calcular resultados matemáticos y simular una subasta. Todo esto se visualiza a través de un TextView, mejorando la experiencia de usuario.
+🎨 CustomButtonsLib – Biblioteca de Botones Personalizados en Android
+CustomButtonsLib es una aplicación Android desarrollada en Kotlin que implementa varios botones personalizados utilizando MaterialButton de Material Design. Cada botón ejecuta una función específica, como mostrar perfiles de personas, calcular resultados matemáticos y simular una subasta. Los resultados se visualizan a través de un TextView, mejorando la experiencia del usuario.
 
-Funcionalidades
-1. Mostrar Perfiles
-Al hacer clic en el primer botón ("Mostrar Perfiles"), se mostrarán los detalles de dos personas (Amanda y Atiqah). Estos detalles incluyen su nombre, edad, hobbies y si tienen un referente.
+🛠️ Características Principales
+Mostrar Perfiles: Al hacer clic en el primer botón, se despliega información de perfiles de personas.
 
-2. Cálculos
-El segundo botón ("Calcular") realiza una suma y un cálculo de promedio con tres números predefinidos, mostrando el resultado en el TextView.
+Cálculo Matemático: El segundo botón realiza operaciones matemáticas y muestra el resultado.
 
-3. Simulación de Subasta
-El tercer botón ("Subasta") simula una subasta donde se muestra el precio de un artículo según una oferta. Si no hay oferta, se muestra un precio mínimo predefinido.
+Simulación de Subasta: El tercer botón simula una subasta, proporcionando una experiencia interactiva.
 
-4. Botones Personalizados
-Cada botón está diseñado utilizando MaterialButton, personalizando propiedades como el color de fondo, bordes redondeados, iconos, y efectos de pulsación (ripple).
+📁 Estructura del Proyecto
+.idea/: Archivos de configuración del proyecto.
 
-Requisitos
-Android Studio (última versión recomendada)
-SDK de Android 34 o superior
-Conexión a internet para dependencias (como Material Components)
-Instalación
-Clona este repositorio:
+MyButtonLibrary/: Contiene la biblioteca de botones personalizados.
 
-bash
-Copiar código
-git clone https://github.com/Rivendell2003/CustomButtonsLib
-Abre el proyecto en Android Studio.
+app/: Código fuente de la aplicación principal.
 
-Ejecuta la aplicación en un emulador o dispositivo físico.
+gradle/: Scripts de construcción del proyecto.
 
-Dependencias
-com.google.android.material:material para los botones de Material Design.
-androidx.appcompat para compatibilidad con versiones antiguas de Android.
-androidx.core:core-ktx para funcionalidades adicionales.
-Autor
-Jonny A. V.
-Bootcamp EI3M5 - 2024
+build.gradle.kts: Script de construcción en Kotlin DSL.
+
+settings.gradle.kts: Configuración del proyecto.
+
+README.md: Descripción general del proyecto.
+
+
+👤 Autor
+JonnyJaVa
+
+Si utilizas este proyecto, por favor, atribuye adecuadamente al autor mencionando su nombre y proporcionando un enlace a este repositorio.
